@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111614">
+  <meta name="description" content="Sua mesa de decisões. Pendências, rascunhos e Maestro em um só lugar.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Mesa">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./data.js" defer></script>
+  <script src="./app.js" defer></script>
+  <title>Mesa</title>
+</head>
+<body>
+  <div class="cockpit">
+    <header class="topbar">
+      <a class="brand" href="#agora" aria-label="Mesa, início"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>Mesa<span class="brand-dot">.</span></a>
+      <div class="header-meta"><time id="today"></time><span class="connection"><span class="led" id="connection-led"></span><span id="connection-label">Conexão</span></span></div>
+    </header>
+
+    <main>
+      <section id="panel-agora" class="panel agora" role="tabpanel" aria-labelledby="tab-agora">
+        <div class="page-heading"><div><p class="eyebrow">NO SEU RADAR</p><h1>Agora<span class="accent">.</span></h1></div><span class="count-pill"><b>7</b> pendências</span></div>
+        <div class="list-heading"><span>PENDÊNCIA</span><span>DECIDA O PRÓXIMO PASSO</span></div>
+        <div id="pending-list" class="pending-list"></div>
+        <p class="footnote"><span aria-hidden="true">↗</span> Abra a pendência ou leve ao Maestro.</p>
+      </section>
+
+      <section id="panel-voce" class="panel" role="tabpanel" aria-labelledby="tab-voce" hidden>
+        <div class="page-heading"><div><p class="eyebrow">A PALAVRA É SUA</p><h1>Você<span class="accent">.</span></h1></div><span class="count-pill"><b>2</b> rascunhos</span></div>
+        <div class="section-intro"><h2>Prontos para sua revisão</h2><p>Abra o rascunho para aprovar o envio.</p></div>
+        <div id="draft-list" class="draft-list"></div>
+        <article class="info-card"><span class="small-symbol" aria-hidden="true">⌘</span><h2>Uma conversa, próximo passo.</h2><p>Use <strong>Com Maestro</strong> em qualquer pendência. A mensagem fica disponível para copiar e colar na conversa.</p></article>
+        <article class="install-card"><p class="eyebrow">SEMPRE À MÃO</p><h2>Mesa na tela de início</h2><p>No Safari, toque em Compartilhar e depois em <strong>Adicionar à Tela de Início</strong>.</p><button id="install-button" class="solid-button" hidden>Adicionar Mesa</button><p id="installed-label" class="accent" hidden>Mesa está aberta como aplicativo.</p></article>
+      </section>
+
+      <section id="panel-sistema" class="panel" role="tabpanel" aria-labelledby="tab-sistema" hidden>
+        <div class="page-heading"><div><p class="eyebrow">NOS BASTIDORES</p><h1>Sistema<span class="accent">.</span></h1></div><span class="system-indicator" aria-label="Estados dos bots"><span class="led"></span><span class="led red"></span></span></div>
+        <div class="section-intro"><h2>Seus agentes</h2><p>Configuração local, sem monitoramento dos bots.</p></div>
+        <article class="bot-card"><div class="bot-title"><span class="bot-icon" aria-hidden="true">M</span><div><h2>Maestro</h2><p>Grok Bot</p></div><span class="led" aria-hidden="true"></span></div><div class="bot-state"><span>Atalho configurado</span><span class="accent">Disponível na Mesa</span></div><p class="muted">O atalho abre o aplicativo. O estado do agente não é consultado.</p><a id="maestro-system-link" class="outline-button">Abrir Maestro <span aria-hidden="true">↗</span></a></article>
+        <article class="bot-card"><div class="bot-title"><span class="bot-icon hermes-icon" aria-hidden="true">H</span><div><h2>Hermes</h2><p>Agente no box</p></div><span class="led red" aria-hidden="true"></span></div><div class="bot-state"><span>Instalação pendente</span><span class="red-text">Aguarda créditos</span></div><p class="muted">Instalar quando os créditos voltarem.</p><a id="hermes-system-link" class="outline-button">Com Maestro <span aria-hidden="true">↗</span></a></article>
+        <div class="shell-state"><span class="led" id="shell-led"></span><div><h2>Mesa neste aparelho</h2><p id="shell-status">Preparando acesso sem conexão…</p></div></div>
+      </section>
+      <noscript>Ative o JavaScript para abrir suas pendências e rascunhos na Mesa.</noscript>
+    </main>
+
+    <nav class="tabbar" role="tablist" aria-label="Navegação principal">
+      <button id="tab-agora" class="tab active" role="tab" aria-selected="true" aria-controls="panel-agora" data-tab="agora"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg><span>Agora</span></button>
+      <button id="tab-voce" class="tab" role="tab" aria-selected="false" aria-controls="panel-voce" data-tab="voce" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg><span>Você</span></button>
+      <button id="tab-sistema" class="tab" role="tab" aria-selected="false" aria-controls="panel-sistema" data-tab="sistema" tabindex="-1"><span class="system-tab-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="4"/><path d="M12 2v3M8 10v3m8-3v3m-7 3h6"/></svg><span class="tiny-leds" aria-hidden="true"><i></i><i></i></span></span><span>Sistema</span></button>
+    </nav>
+  </div>
+
+  <dialog id="maestro-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-help">
+    <div class="dialog-header"><p class="eyebrow">COM MAESTRO</p><button id="close-dialog" class="close-button" aria-label="Fechar mensagem">×</button></div>
+    <h2 id="dialog-title"></h2>
+    <p id="dialog-help">Se o aplicativo não abrir, copie esta mensagem e cole na conversa com Maestro.</p>
+    <label for="reply-text">Mensagem para colar</label>
+    <textarea id="reply-text" readonly rows="4" spellcheck="false"></textarea>
+    <div class="dialog-actions"><button id="copy-reply" class="solid-button">Copiar mensagem</button><a id="open-maestro" class="outline-button">Abrir Maestro ↗</a></div>
+    <p id="copy-status" role="status" aria-live="polite"></p>
+  </dialog>
+</body>
+</html>
