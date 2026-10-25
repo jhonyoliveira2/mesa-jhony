@@ -68,19 +68,19 @@ window.MESA = {
     },
     {
       "id": "sidnei",
-      "title": "Sidnei FLT1B27",
+      "title": "Sidnei",
       "subtitle": "Rascunho · aprovar envio",
       "action": "Abrir rascunho",
-      "reply": "Mesa: abrir rascunho Sidnei FLT1B27 pra eu aprovar o envio.",
+      "reply": "Mesa: abrir rascunho … pra eu aprovar o envio.",
       "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r5809623130021857844",
       "draft": true
     },
     {
       "id": "marta",
-      "title": "Marta FLT1B27",
+      "title": "Marta",
       "subtitle": "Rascunho · aprovar envio",
       "action": "Abrir rascunho",
-      "reply": "Mesa: abrir rascunho Marta FLT1B27 pra eu aprovar o envio.",
+      "reply": "Mesa: abrir rascunho … pra eu aprovar o envio.",
       "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r8486347514203437937",
       "draft": true
     }
