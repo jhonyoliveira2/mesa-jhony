@@ -1,5 +1,5 @@
 'use strict';
-// Links e respostas copiados literalmente de BRIEF.md.
+// Atualizado pela rotina Atualizar Mesa PWA a partir dos conectores (26/10/2026).
 window.MESA = {
   "maestro": "grokbot://app/v1/agent?id=2f98b868-c849-4445-87b9-d95e4dbe4141",
   "items": [
@@ -13,18 +13,9 @@ window.MESA = {
       "draft": false
     },
     {
-      "id": "samir",
-      "title": "Samir rascunho",
-      "subtitle": "Aprovar envio · e-TCESP",
-      "action": "Abrir rascunho",
-      "reply": "Mesa: abrir o rascunho Samir e-TCESP pra eu aprovar o envio.",
-      "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r8161082055109136667",
-      "draft": false
-    },
-    {
       "id": "primacial",
       "title": "Primacial #9104688",
-      "subtitle": "Confirmar compra / entrega",
+      "subtitle": "Enviado 22/10 · confirmar entrega",
       "action": "Acompanhar",
       "reply": "Mesa: abrir acompanhamento Primacial #9104688 pra eu confirmar a compra/entrega.",
       "deep_link": "https://primacial.com.br/checkout/v3/success/2101000556/ac34d0c65fa03799e457c81cf01621b15c312c57",
@@ -60,28 +51,47 @@ window.MESA = {
     {
       "id": "hermes",
       "title": "Hermes",
-      "subtitle": "Instalar · aguarda créditos",
+      "subtitle": "Instalado 25/10 · gateway parado",
       "action": null,
-      "reply": "Mesa: quando os créditos voltarem, me lembre de instalar o Hermes Agente no box.",
+      "reply": "Mesa: religar o gateway do Hermes (Telegram) no box e me confirmar quando estiver no ar.",
       "deep_link": null,
-      "draft": false
+      "draft": false,
+      "done": true
     },
     {
       "id": "sidnei",
-      "title": "Sidnei",
-      "subtitle": "Rascunho · aprovar envio",
+      "title": "Sidnei · FLT1B27",
+      "subtitle": "Rascunho isenção · aprovar envio",
       "action": "Abrir rascunho",
-      "reply": "Mesa: abrir rascunho … pra eu aprovar o envio.",
+      "reply": "Mesa: abrir rascunho Sidnei (isenção FLT1B27) pra eu aprovar o envio.",
       "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r5809623130021857844",
       "draft": true
     },
     {
       "id": "marta",
-      "title": "Marta",
-      "subtitle": "Rascunho · aprovar envio",
+      "title": "Marta · FLT1B27",
+      "subtitle": "Rascunho isenção · aprovar envio",
       "action": "Abrir rascunho",
-      "reply": "Mesa: abrir rascunho … pra eu aprovar o envio.",
+      "reply": "Mesa: abrir rascunho Marta (isenção FLT1B27) pra eu aprovar o envio.",
       "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r8486347514203437937",
+      "draft": true
+    },
+    {
+      "id": "sidnei-serpro",
+      "title": "Sidnei · SERPRO",
+      "subtitle": "Rascunho certificado TPA · aprovar envio",
+      "action": "Abrir rascunho",
+      "reply": "Mesa: abrir rascunho Sidnei (renovação certificado SERPRO da TPA) pra eu aprovar o envio.",
+      "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r-3481694404499593999",
+      "draft": true
+    },
+    {
+      "id": "kalinka-ta03",
+      "title": "Kalinka · TA 03",
+      "subtitle": "Rascunho cobrança TPA · aprovar envio",
+      "action": "Abrir rascunho",
+      "reply": "Mesa: abrir rascunho Kalinka (TA 03, cobrança da TPA) pra eu aprovar o envio.",
+      "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r-4183695822724857066",
       "draft": true
     }
   ]

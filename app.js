@@ -64,7 +64,7 @@ function boot() {
 
   pendingList.replaceChildren();
   draftList.replaceChildren();
-  items.filter(item => !item.draft).forEach((item, i) => pendingList.append(renderRow(item, i)));
+  items.filter(item => !item.draft && !item.done).forEach((item, i) => pendingList.append(renderRow(item, i)));
   items.filter(item => item.draft).forEach((item, i) => draftList.append(renderRow(item, i)));
 
   const tabs = [...document.querySelectorAll('[data-tab]')];
