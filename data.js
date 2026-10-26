@@ -4,12 +4,12 @@ window.MESA = {
   "maestro": "grokbot://app/v1/agent?id=2f98b868-c849-4445-87b9-d95e4dbe4141",
   "items": [
     {
-      "id": "oficio",
-      "title": "Ofício 11 Asten",
-      "subtitle": "Assinar · Ofício 11/2026",
+      "id": "oficio25",
+      "title": "Ofício 25 Asten",
+      "subtitle": "Assinar · Ofício 25/2026 (SEMA)",
       "action": "Assinar",
-      "reply": "Mesa: abrir assinatura Asten do Ofício 11/2026 e me lembrar se falta algo depois de assinar.",
-      "deep_link": "https://plataforma.astenassinatura.com.br/assinar/ecoubatuba/cnJWYTFnYjJCTkhzUCtoUTFlekdSTnJFUHRpTnJqUVBubi1PSDFwRmpidXlsQVREbE1zYnFpbkZ2UU1OSE1vT3JGZ1VRUEY0Y3lwNzctaVN1eHVZUmJSMmpHTmc4NUFObnlqUUhHT0pOUyt3TmhkRStnaS1XeTRYeCtDS01XTlRSUHl5MTEwU2J6TEhIdlJqM2RjdG1ORWVqZnFYdmNPcHVzUHN4dHZkYitEc1ZWVWlJRk1xbjVlZVc1cjhWaVVRbFR3WU80djI2WnEtY0orWnNBRkVGVnFySzYwT3RVTHZSdEJNWGVQbzcwUDlHZG0tbXdHb3phS3pVZG9RcVJQZQ==",
+      "reply": "Mesa: abrir assinatura Asten do Ofício 25/2026 (resposta Notificação SEMA 01/2026) e me lembrar se falta algo depois de assinar.",
+      "deep_link": "https://plataforma.astenassinatura.com.br/assinar/ecoubatuba/cnJWYTFnYjJCTkhzUCtoUTFlekdSTnJFUHRpTnJqUVBubi1PSDFwRmpidXlsQVREbE1zYnFYVGJhVmdoV09ja3JGZ1VRUEY0Y3lvb1NiWlltak0raHlMQkVUcm1vTzN6NGhKZXRkRVpHN0V3TmhkRStnaS1XeTRYeCtDS01XTlRSUHl5MTEwU2J6TEhIdlJqM2RjdG1ORWVqZnFYdmNPcHVzUHN4dHZkYitEc1ZWVWlJRk1xbjVlZVc1cjhWaVVRbFR3WU80djI2WnEtY0orWnNBRkVGVnFySzYwT3RVTHZSdEJNWGVQbzcwUDlHZG0tbXdHb3phS3pVZG9RcVJQZQ==",
       "draft": false
     },
     {

@@ -1,5 +1,5 @@
 'use strict';
-const CACHE = 'mesa-shell-v6';
+const CACHE = 'mesa-shell-v7';
 const SHELL = [
   './',
   './index.html',
