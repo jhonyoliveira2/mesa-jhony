@@ -32,15 +32,6 @@ window.MESA = {
       "done": true
     },
     {
-      "id": "sidnei-oficio26",
-      "title": "Sidnei · Ofício 26/2026",
-      "subtitle": "Rascunho Serasa assinado · aprovar envio",
-      "action": "Abrir rascunho",
-      "reply": "Mesa: abrir rascunho Sidnei (Ofício 26/2026, notificação Serasa já assinada no Asten) pra eu aprovar o envio.",
-      "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r-192936046457623606",
-      "draft": true
-    },
-    {
       "id": "sidnei",
       "title": "Sidnei · FLT1B27",
       "subtitle": "Rascunho isenção · aprovar envio",
@@ -56,15 +47,6 @@ window.MESA = {
       "action": "Abrir rascunho",
       "reply": "Mesa: abrir rascunho Marta (isenção FLT1B27) pra eu aprovar o envio.",
       "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r8486347514203437937",
-      "draft": true
-    },
-    {
-      "id": "marta-linde",
-      "title": "Marta · FLT1B27 (Linde)",
-      "subtitle": "Rascunho cobrança item 7 · aprovar envio",
-      "action": "Abrir rascunho",
-      "reply": "Mesa: abrir rascunho Marta (FLT1B27, cobrar dados do Linde do item 7) pra eu aprovar o envio.",
-      "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r138141391722655936",
       "draft": true
     },
     {
