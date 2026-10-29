@@ -15,9 +15,9 @@ window.MESA = {
     {
       "id": "ricardo",
       "title": "Ricardo Emilio",
-      "subtitle": "Conferir eproc ev.23 · autorizar pedido a–f",
+      "subtitle": "Conferir eproc ev.23 e ev.24 (decorrido prazo 29/10) · autorizar pedido a–f",
       "action": "Abrir card",
-      "reply": "Mesa: abrir card Emilio pra eu conferir o ev.23 no eproc (prazo) e autorizar o pedido a–f ao Ricardo.",
+      "reply": "Mesa: abrir card Emilio pra eu conferir no eproc o ev.23 e o ev.24 (decorrido prazo, 29/10) e o prazo e autorizar o pedido a–f ao Ricardo.",
       "deep_link": "https://trello.com/c/vJnSV7we",
       "draft": false
     },
@@ -60,6 +60,7 @@ window.MESA = {
     }
   ]
 };
+
 'use strict';
 
 function boot() {
