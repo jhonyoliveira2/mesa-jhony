@@ -1,5 +1,5 @@
 'use strict';
-// Atualizado pela rotina Atualizar Mesa PWA a partir dos conectores (27/10/2026).
+// Atualizado pela rotina Atualizar Mesa PWA a partir dos conectores (29/10/2026).
 window.MESA = {
   "maestro": "grokbot://app/v1/agent?id=2f98b868-c849-4445-87b9-d95e4dbe4141",
   "items": [
@@ -28,15 +28,6 @@ window.MESA = {
       "action": "Abrir card",
       "reply": "Mesa: abrir card Emilio pra eu autorizar o pedido a–f ao Ricardo.",
       "deep_link": "https://trello.com/c/vJnSV7we",
-      "draft": false
-    },
-    {
-      "id": "sjb",
-      "title": "SJB Meet",
-      "subtitle": "Onboarding · 28/10, 8h–12h",
-      "action": "Entrar na reunião",
-      "reply": "Mesa: abrir Meet Onboarding SJB (28/10 8h–12h).",
-      "deep_link": "https://meet.google.com/tsx-qtjn-rcp",
       "draft": false
     },
     {
@@ -77,21 +68,21 @@ window.MESA = {
       "draft": true
     },
     {
+      "id": "marta-linde",
+      "title": "Marta · FLT1B27 (Linde)",
+      "subtitle": "Rascunho cobrança item 7 · aprovar envio",
+      "action": "Abrir rascunho",
+      "reply": "Mesa: abrir rascunho Marta (FLT1B27, cobrar dados do Linde do item 7) pra eu aprovar o envio.",
+      "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r138141391722655936",
+      "draft": true
+    },
+    {
       "id": "sidnei-serpro",
       "title": "Sidnei · SERPRO",
       "subtitle": "Rascunho certificado TPA · aprovar envio",
       "action": "Abrir rascunho",
       "reply": "Mesa: abrir rascunho Sidnei (renovação certificado SERPRO da TPA) pra eu aprovar o envio.",
       "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r-3481694404499593999",
-      "draft": true
-    },
-    {
-      "id": "kalinka-ta03",
-      "title": "Kalinka · TA 03",
-      "subtitle": "Rascunho cobrança TPA · aprovar envio",
-      "action": "Abrir rascunho",
-      "reply": "Mesa: abrir rascunho Kalinka (TA 03, cobrança da TPA) pra eu aprovar o envio.",
-      "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r-4183695822724857066",
       "draft": true
     }
   ]
