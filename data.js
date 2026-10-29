@@ -4,15 +4,6 @@ window.MESA = {
   "maestro": "grokbot://app/v1/agent?id=2f98b868-c849-4445-87b9-d95e4dbe4141",
   "items": [
     {
-      "id": "primacial",
-      "title": "Primacial #9104688",
-      "subtitle": "Enviado 22/10 · confirmar entrega",
-      "action": "Acompanhar",
-      "reply": "Mesa: abrir acompanhamento Primacial #9104688 pra eu confirmar a compra/entrega.",
-      "deep_link": "https://primacial.com.br/checkout/v3/success/2101000556/ac34d0c65fa03799e457c81cf01621b15c312c57",
-      "draft": false
-    },
-    {
       "id": "ana",
       "title": "Ana Marta v02",
       "subtitle": "Validar · Contraminuta",
