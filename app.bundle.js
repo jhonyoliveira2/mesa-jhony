@@ -40,6 +40,15 @@ window.MESA = {
       "draft": true
     },
     {
+      "id": "kalinka-reajuste",
+      "title": "Kalinka · Reajuste câmeras",
+      "subtitle": "Rascunho locação pontos Pé da Serra (IPCA) · aprovar envio",
+      "action": "Abrir rascunho",
+      "reply": "Mesa: abrir rascunho Kalinka (reajuste da locação dos pontos de câmera do Pé da Serra) pra eu aprovar o envio.",
+      "deep_link": "https://mail.google.com/mail/?authuser=jhonyo@gmail.com#drafts?compose=r9060106128025491630",
+      "draft": true
+    },
+    {
       "id": "carlos-pmi",
       "title": "Pai · SEI diploma PMI",
       "subtitle": "Hoje · cobrar SEI 00058.022298/2018-81 ou diploma (contraminuta ANAC)",
