@@ -1,5 +1,5 @@
 'use strict';
-// Atualizado pela rotina Atualizar Mesa PWA a partir dos conectores (02/11/2026 9h).
+// Atualizado pela rotina Atualizar Mesa PWA a partir dos conectores (02/11/2026 18h).
 window.MESA = {
   "maestro": "grokbot://app/v1/agent?id=2f98b868-c849-4445-87b9-d95e4dbe4141",
   "items": [
@@ -22,15 +22,6 @@ window.MESA = {
       "draft": false
     },
     {
-      "id": "amazon",
-      "title": "Amazon · pagamento recusado",
-      "subtitle": "02/11 madrugada · livro 'Ganhe o mundo sem perder a alma' (R$ 57,37) em espera · atualizar pagamento ou cancelar",
-      "action": "Abrir pedido",
-      "reply": "Mesa: o pedido Amazon 701-6575918-4204268 (livro, R$ 57,37) teve pagamento recusado. Fui eu que comprei; vou resolver o pagamento.",
-      "deep_link": "https://www.amazon.com.br/your-orders/order-details?orderID=701-6575918-4204268",
-      "draft": false
-    },
-    {
       "id": "hermes",
       "title": "Hermes",
       "subtitle": "Instalado 25/10 · gateway parado",
@@ -42,6 +33,7 @@ window.MESA = {
     }
   ]
 };
+
 'use strict';
 
 function boot() {
@@ -226,4 +218,3 @@ if (document.readyState === 'loading') {
 } else {
   boot();
 }
-
