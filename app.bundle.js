@@ -1,12 +1,12 @@
 'use strict';
-// Atualizado pela rotina Atualizar Mesa PWA a partir dos conectores (30/10/2026 18h).
+// Atualizado pela rotina Atualizar Mesa PWA a partir dos conectores (02/11/2026 9h).
 window.MESA = {
   "maestro": "grokbot://app/v1/agent?id=2f98b868-c849-4445-87b9-d95e4dbe4141",
   "items": [
     {
       "id": "ana",
       "title": "Ana Marta v02",
-      "subtitle": "Validar · Contraminuta",
+      "subtitle": "Validar · Contraminuta · diploma PMI do pai chegou 30/10",
       "action": "Abrir documento",
       "reply": "Mesa: abrir Contraminuta Ana Marta v02 pra eu validar antes de protocolar.",
       "deep_link": "https://docs.google.com/document/d/1HfAAUpA1GBUPDqG4c925yaPhAt0JfwVi/edit",
@@ -22,12 +22,12 @@ window.MESA = {
       "draft": false
     },
     {
-      "id": "carlos-pmi",
-      "title": "Pai · SEI diploma PMI",
-      "subtitle": "Hoje · cobrar SEI 00058.022298/2018-81 ou diploma (contraminuta ANAC)",
-      "action": "Abrir agenda",
-      "reply": "Mesa: me ajuda a cobrar do meu pai o SEI 00058.022298/2018-81 ou o diploma PMI pra fechar a contraminuta ANAC.",
-      "deep_link": "https://www.google.com/calendar/event?eid=Mm43bDVkY25jNmg1a2gwN3Y1b3ViY29qdjQgamhvbnlAZHJsaWNpdGEuY29t",
+      "id": "amazon",
+      "title": "Amazon · pagamento recusado",
+      "subtitle": "02/11 madrugada · livro 'Ganhe o mundo sem perder a alma' (R$ 57,37) em espera · atualizar pagamento ou cancelar",
+      "action": "Abrir pedido",
+      "reply": "Mesa: o pedido Amazon 701-6575918-4204268 (livro, R$ 57,37) teve pagamento recusado. Fui eu que comprei; vou resolver o pagamento.",
+      "deep_link": "https://www.amazon.com.br/your-orders/order-details?orderID=701-6575918-4204268",
       "draft": false
     },
     {
